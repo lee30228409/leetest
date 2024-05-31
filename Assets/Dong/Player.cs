@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rigid = GetComponent<Rigidbody>();
+        Debug.Log("¾È³ç");
     }
 
     // Update is called once per frame
